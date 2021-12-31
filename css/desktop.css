@@ -1,0 +1,64 @@
+.main_contain {
+  align-content: center;
+}
+
+.main_background {
+  background-size: 34% 44%, 60% 86%;
+}
+
+.presentation {
+  width: 40%;
+}
+
+.presentation h2 {
+  margin-left: 0;
+  font-size: 5rem;
+  text-align: start;
+  line-height: 5rem;
+}
+
+.presentation p {
+  width: 455px;
+  font-weight: 500;
+  text-align: start;
+}
+
+.score {
+  width: 40%;
+}
+
+.score .score_box {
+  width: 73%;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.score .score_box:nth-child(2) {
+  position: relative;
+  left: 55px;
+}
+
+.score .score_box:nth-child(3) {
+  position: relative;
+  left: 111px;
+}
+
+.reviews {
+  height: 350px;
+  width: 85%;
+  margin-top: 60px;
+}
+
+.reviews .review {
+  max-width: 363px;
+  height: 255px;
+}
+
+.reviews .review:nth-child(2) {
+  position: relative;
+  top: 15px;
+}
+.reviews .review:nth-child(3) {
+  position: relative;
+  top: 30px;
+}
