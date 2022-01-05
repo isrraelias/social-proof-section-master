@@ -1,9 +1,13 @@
 .main_contain {
   align-content: center;
+  padding-top: 80px;
+  overflow: hidden;
 }
 
 .main_background {
-  background-size: 34% 44%, 60% 86%;
+  background-image: url(../images/bg-pattern-top-desktop.svg),
+    url(../images/bg-pattern-bottom-desktop.svg);
+  background-size: 39% 48%, 70% 90%;
 }
 
 .presentation {
